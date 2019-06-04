@@ -1,0 +1,24 @@
+.menu ul:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+.menu > ul > li {
+	float: left;
+	width: 25%;
+	
+}
+.menu > ul li > a {
+	display: block;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	color:white;
+	color:#3366cc;
+}
+.menu > ul li > a:hover {
+	background-color: white;
+	color: #CABFBF;
+	cursor: pointer;
+}
