@@ -45,3 +45,10 @@
 		width: 1170px;
 	}
 }
+
+.page-title {
+	color: #CABFBF;
+	text-align: center;
+	font-size: 50px;
+	margin: 10px 0;
+}
