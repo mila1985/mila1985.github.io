@@ -1,4 +1,5 @@
 import React from 'react'
+import './ArticleListItem.css'
 
 const ArticleListItem = () => {
     return (
