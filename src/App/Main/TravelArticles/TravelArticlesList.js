@@ -1,14 +1,14 @@
 import React from 'react'
-import ArticleListItem from './ArticleListItem'
+import TravelArticleListItem from './TravelArticleListItem'
 
-const ArticlesList = () => {
+const TravelArticlesList = () => {
     return (
         <div>
             <h1 className="page-title"> Travel articles</h1>
             <div className="container">
 				<div className="row">
 					<div className="col-12">
-                    <ArticleListItem/>
+                    <TravelArticleListItem/>
                     </div>
                 </div>
             </div>
@@ -16,4 +16,4 @@ const ArticlesList = () => {
     )
 }
 
-export default ArticlesList
+export default TravelArticlesList

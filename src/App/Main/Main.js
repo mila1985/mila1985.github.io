@@ -1,8 +1,13 @@
 import React from 'react'
+import {Route} from 'react-router-dom'
 import './main.css'
 
-import './Articles/ArticlesList.js'
-import ArticlesList from './Articles/ArticlesList.js';
+import './TravelArticles/TravelArticlesList.js'
+import TravelArticlesList from './TravelArticles/TravelArticlesList.js';
+import AboutMe from './AboutMe/AboutMe';
+import FoodArticles from './FoodArticles/FoodArticles';
+import SouvenirsArticles from './SouvenirsArticles/SouvenirsArticles';
+
 
 const Main = () => {
 	return (
@@ -12,7 +17,15 @@ const Main = () => {
 			</div>
 
 			<div>
-				<ArticlesList/>
+				
+			    <Route exact path="/" render={()=>(
+						<TravelArticlesList/>
+					)}/>
+
+				
+				<Route path="/About me" component={AboutMe}/>
+				<Route path="/Food articles" component={FoodArticles}/>
+				<Route path="/Souvenirs articles" component={SouvenirsArticles}/>
 			</div>	
 
 			{/* <div className="container">

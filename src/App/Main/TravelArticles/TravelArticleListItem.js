@@ -1,7 +1,7 @@
 import React from 'react'
-import './ArticleListItem.css'
+import './TravelArticleListItem.css'
 
-const ArticleListItem = () => {
+const TravelArticleListItem = () => {
     return (
         <div className="blog-container">
             <div className="blog-header">
@@ -35,4 +35,4 @@ const ArticleListItem = () => {
     )
 }
 
-export default ArticleListItem
+export default TravelArticleListItem
