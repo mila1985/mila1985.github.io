@@ -15,7 +15,10 @@ const TravelArticleListItem = () => {
                     <h1><a href="">Name of the article 1</a></h1>
                 </div>
                 <div className="blog-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas consequuntur aliquid quisquam architecto quos omnis, suscipit quod eveniet dolore vero. Tempora odit ut perferendis officia doloremque rerum quidem, repudiandae repellat quaerat, ullam expedita inventore sint esse ipsam, iure recusandae? Ullam!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Quas consequuntur aliquid quisquam architecto quos omnis, suscipit quod eveniet dolore vero. 
+                        Tempora odit ut perferendis officia doloremque rerum quidem, repudiandae repellat quaerat, ullam expedita 
+                        inventore sint esse ipsam, iure recusandae? Ullam!</p>
                 </div>
                 <div className="blog-tags">
                     <ul>
