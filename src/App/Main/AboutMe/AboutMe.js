@@ -12,7 +12,7 @@ const AboutMe = () => {
 
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-lg-6">
             <div className ="text-about">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -43,7 +43,7 @@ const AboutMe = () => {
         
 
  
-          <div className="col-6">
+          <div className="col-lg-6">
             <img className="about-img" src={aboutme} alt="about me"/>
           </div>
         </div>
