@@ -8,19 +8,19 @@ import telegram from './telegram.png'
 const FooterButtons = () => {
     return (
         <div className="header-buttons">
-			<div class="fb">
+			<div className="fb">
                 <a href="https://www.facebook.com/" target="_blank">
                     <img src={fb} alt="" />
                 </a>
             </div>
 
-			<div class="insta">
+			<div className="insta">
                 <a href="https://www.instagram.com/" target="_blank">
                     <img src={insta} alt="" />
                 </a>    
             </div>
 
-            <div class="telegram">
+            <div className="telegram">
                 <a href="https://tlgrm.ru/channels/" target="_blank">
                     <img src={telegram} alt="" />
                 </a>            

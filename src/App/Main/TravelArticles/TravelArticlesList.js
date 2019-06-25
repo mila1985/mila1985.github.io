@@ -11,14 +11,14 @@ const TravelArticlesList = () => {
                     {
                         travelArticles.map(({
                         id,
-                        title,
+                        name,
                         text,
                         date,
                         image,
                         })=>(
                             <div className="col-lg-12" key={id}>
                                 <TravelArticleListItem
-                                    title={title}
+                                    name={name}
                                     text={text}
                                     date={date}  
                                     image={image} 

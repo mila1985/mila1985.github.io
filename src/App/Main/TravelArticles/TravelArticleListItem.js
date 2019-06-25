@@ -1,8 +1,9 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './TravelArticleListItem.css'
 
 const TravelArticleListItem = ({
-    title,
+    name,
     text,
     date,
     image,
@@ -10,14 +11,14 @@ const TravelArticleListItem = ({
     return (
         <div className="blog-container">
             <div className="blog-header">
-                <div claclassNamess="blog-cover">
+                <div className="blog-cover">
                     <img src={image} alt=""/>
                 </div>
             </div>
         
             <div className="blog-body">
                 <div className="blog-title">
-                    <h1><a href="">{title}</a></h1>
+                    <h1>  <Link to={'/travelArticles/${id}'}>{name}</Link></h1>
                 </div>
                 <div className="blog-text">
                     <p>{text}</p>

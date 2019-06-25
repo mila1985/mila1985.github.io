@@ -12,10 +12,9 @@
 }
 
 .blog-cover {
-	height: 240px;
+	height: 271px;
 	width: 1170px;
 	border-radius: 5px;
-	height: 15rem;
 	box-shadow: inset rgba(0,0,0,0.2) 0 64px 64px 16px;
 }
 
@@ -27,7 +26,8 @@
 
 .blog-title {
 	font-weight: 100;
-	font-size: 30px;
+	font-size: 35px;
+
 }
 .blog-title a {
 	color: #C8A8A8;
@@ -35,6 +35,7 @@
 
 .blog-text {
 	color: #C8A8A8;
+	font-size: 20px;
 }
 
 .blog-tags ul {
