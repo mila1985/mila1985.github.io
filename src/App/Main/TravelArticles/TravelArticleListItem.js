@@ -1,7 +1,11 @@
 import React from 'react'
 import './TravelArticleListItem.css'
 
-const TravelArticleListItem = (props) => {
+const TravelArticleListItem = ({
+    title,
+    text,
+    date,
+}) => {
     return (
         <div className="blog-container">
             <div className="blog-header">
@@ -12,10 +16,10 @@ const TravelArticleListItem = (props) => {
         
             <div className="blog-body">
                 <div className="blog-title">
-                    <h1><a href="">{props.title}</a></h1>
+                    <h1><a href="">{title}</a></h1>
                 </div>
                 <div className="blog-text">
-                    <p>{props.text}</p>
+                    <p>{text}</p>
                 </div>
                 <div className="blog-tags">
                     <ul>
@@ -28,7 +32,7 @@ const TravelArticleListItem = (props) => {
 
             <div className="blog-footer">
                 <ul>
-                    <li className="published-date">{props.date}</li>
+                    <li className="published-date">{date}</li>
                 </ul>
             </div>
         </div>
