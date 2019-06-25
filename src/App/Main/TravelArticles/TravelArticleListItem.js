@@ -5,12 +5,13 @@ const TravelArticleListItem = ({
     title,
     text,
     date,
+    image,
 }) => {
     return (
         <div className="blog-container">
             <div className="blog-header">
                 <div claclassNamess="blog-cover">
-                    <img src="images/articles/11.jpg"/>
+                    <img src={image} alt=""/>
                 </div>
             </div>
         

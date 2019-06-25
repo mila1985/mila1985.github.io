@@ -14,12 +14,14 @@ const TravelArticlesList = () => {
                         title,
                         text,
                         date,
+                        image,
                         })=>(
                             <div className="col-lg-12" key={id}>
                                 <TravelArticleListItem
                                     title={title}
                                     text={text}
-                                    date={date}   
+                                    date={date}  
+                                    image={image} 
                                 />
                             </div>
                         ))
