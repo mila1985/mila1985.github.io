@@ -1,10 +1,11 @@
 .text-about {
 	color: #CABFBF;
-	font-size: 21px;
+	font-size: 20px;
 	background: #fafafa;
 	border-radius: 5px;
 	box-shadow: rgba(0,0,0,0.2) 0 4px 2px 2px;
 	margin-bottom: 30px;
+	padding: 10px;
 }
 
 .about-img {
