@@ -1,6 +1,5 @@
-.fb, .insta {
-    color:black;
-	font-size: 17px;
-	margin:5px 0;
+.fb, .insta, .telegram {
+    float: left;
+	margin:0 23px;
 
 }
