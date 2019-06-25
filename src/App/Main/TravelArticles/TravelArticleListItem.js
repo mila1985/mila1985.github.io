@@ -5,8 +5,8 @@ const TravelArticleListItem = (props) => {
     return (
         <div className="blog-container">
             <div className="blog-header">
-                <div claclassNamess="blog-cover">{props.img}
-                    {/* <img src="images/articles/11.jpg"/> */}
+                <div claclassNamess="blog-cover">
+                    <img src="images/articles/11.jpg"/>
                 </div>
             </div>
         
