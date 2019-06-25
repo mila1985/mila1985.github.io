@@ -9,12 +9,17 @@ const TravelArticlesList = () => {
             <div className="container">
 				<div className="row">
                     {
-                        travelArticles.map((travelArticle)=>(
-                            <div className="col-lg-12" key={travelArticle.id}>
+                        travelArticles.map(({
+                        id,
+                        title,
+                        text,
+                        date,
+                        })=>(
+                            <div className="col-lg-12" key={id}>
                                 <TravelArticleListItem
-                                    title={travelArticle.title}
-                                    text={travelArticle.text}
-                                    date={travelArticle.date}   
+                                    title={title}
+                                    text={text}
+                                    date={date}   
                                 />
                             </div>
                         ))
