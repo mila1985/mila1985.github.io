@@ -10,7 +10,7 @@ const Footer = () => {
 				<div className="row">
 
 					<div className="col-lg-12">
-						<div className="join">Join us:</div>
+						<div className="join">Join me:</div>
 						<FooterButtons/>
 					</div>
 

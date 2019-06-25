@@ -8,7 +8,19 @@ const TravelArticlesList = () => {
             <div className="container">
 				<div className="row">
 					<div className="col-12">
-                    <TravelArticleListItem/>
+                    <TravelArticleListItem
+                    title="Beautiful world"
+                    />
+                    </div>
+                    <div className="col-12">
+                    <TravelArticleListItem
+                    title="Discover the Ocean"
+                    />
+                    </div>
+                    <div className="col-12">
+                    <TravelArticleListItem
+                    title="Wonderful Asia"
+                    />
                     </div>
                 </div>
             </div>
