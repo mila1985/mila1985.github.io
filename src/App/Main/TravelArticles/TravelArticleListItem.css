@@ -12,16 +12,13 @@
 }
 
 .blog-cover {
+	height: 240px;
+	width: 1170px;
 	border-radius: 5px;
 	height: 15rem;
 	box-shadow: inset rgba(0,0,0,0.2) 0 64px 64px 16px;
 }
 
-.img-article {
-	height: 240px;
-	width: 1170px;
-	border-radius: 5px;
-}
 
 .blog-body {
 	margin: 0 auto;
@@ -85,8 +82,8 @@
 
 .blog-footer li {
 	color: #C8A8A8;
-	font-size: .75rem;
-	height: 1.5rem;
+	font-size: 15px;
+	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
 	position: relative;
@@ -94,6 +91,7 @@
 }
 
 .published-date {
+	
 	border: 1px solid #C8A8A8;
 	border-radius: 3px;
 	padding: 4px 8px;

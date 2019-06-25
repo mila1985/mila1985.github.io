@@ -5,8 +5,8 @@ const TravelArticleListItem = (props) => {
     return (
         <div className="blog-container">
             <div className="blog-header">
-                <div claclassNamess="blog-cover">
-                    <img src="images/articles/1.jpg" className="img-article"/>
+                <div claclassNamess="blog-cover">{props.img}
+                    {/* <img src="images/articles/11.jpg"/> */}
                 </div>
             </div>
         
@@ -15,10 +15,7 @@ const TravelArticleListItem = (props) => {
                     <h1><a href="">{props.title}</a></h1>
                 </div>
                 <div className="blog-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                       Quas consequuntur aliquid quisquam architecto quos omnis, suscipit quod eveniet dolore vero. 
-                       Tempora odit ut perferendis officia doloremque rerum quidem, repudiandae repellat quaerat, ullam expedita 
-                       inventore sint esse ipsam, iure recusandae? Ullam!</p>
+                    <p>{props.text}</p>
                 </div>
                 <div className="blog-tags">
                     <ul>
@@ -31,7 +28,7 @@ const TravelArticleListItem = (props) => {
 
             <div className="blog-footer">
                 <ul>
-                    <li className="published-date">2 days ago</li>
+                    <li className="published-date">{props.date}</li>
                 </ul>
             </div>
         </div>
